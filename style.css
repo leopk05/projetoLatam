@@ -5,7 +5,7 @@ body {
 .main-page{
     background-color: #FFF2CC;
     width: 400px;
-    height: 700px;
+    height: 720px;
     margin: 10% auto;
     position: relative;
     border-radius: 2%;
@@ -51,11 +51,14 @@ body {
 
 .letter-box{
     margin-left: 7px;
-    margin-right: 7px;
 }
 
 .show-area{
-    margin-left: 20px;
+    margin-left: 5px;
+}
+
+.final-box{
+    margin-right: 4px;
 }
 
 
