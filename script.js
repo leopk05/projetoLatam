@@ -30,7 +30,7 @@ $(".calcular").on("click",function (){
         let finalResultH = numberToArray(Math.round(solicitado));
         let finalResultI = numberToArray(Math.round(ground));
         let finalResultJ = numberToArray(Math.round((((nota1 + nota2) * gravidade) - (solicitado - arrival))- ground));
-        
+
 
         // solicitado = 119900
         //nota 1 = 69909
