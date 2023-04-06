@@ -1,15 +1,20 @@
 body {
-    background:-webkit-gradient(linear, left top, left bottom, from(#5C0632), to(#747F8A)) fixed;
+    background:-webkit-gradient(linear, left top, left bottom, from(rgba(92, 9, 49, 0.5)), to(#FFFFFF)) fixed;
 }
 
 .main-page{
-    background-color: #FFF2CC;
+    background-color: #FFFFFF;
     width: 400px;
-    height: 720px;
-    margin: 10% auto;
+    height: auto;
+    margin: 3% auto 0;
     position: relative;
-    border-radius: 2%;
+    border-radius: 10px;
     padding-top: 0.7%;
+}
+
+.main-title{
+    font-size: 20px;
+    color: #5C0931;
 }
 
 .first{
@@ -18,25 +23,49 @@ body {
 
 .input{
     padding: 2%;
-    margin: 3% 25%;
+    margin: 3% auto;
+    width: 254px;
+    height: 38px;
+    border-radius: 6px;
+    border-width: 1px;
+
 }
 
 .calcular{
-    background-color: #5C0632;
-    margin: 4% 36%;
-    color: white;
+    background-color: #5C0931;
+    margin: 3% auto 7% auto;
+    color: #FFFFFF;
+    width: 200px;
+
 }
 
 @media (max-width: 700px) {
     .main-page{
-        width: 300px;
+        margin: 5% auto 0;
+        width: 370px;
         padding-top: 4%;
+    }
+
+    .calcular{
+        width: 180px;
     }
 
     .input{
         padding: 2%;
         margin: 5% 0;
     }
+
+    .right-inside{
+        display: flex;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .left-inside{
+        display: flex;
+        margin-right: 10px;
+    }
+
 }
 
 .span-teste{
@@ -47,21 +76,27 @@ body {
     margin-left: 1px;
     text-align: center;
     padding-bottom: 20px;
+    border-radius: 6px;
 }
 
 .letter-box{
-    margin-left: 7px;
+    margin-left: 3px;
 }
 
-.show-area{
-    margin-left: 5px;
+.left-side{
+    margin-left: 5%;
 }
 
 .final-box{
     margin-right: 4px;
 }
 
-
 .box-flex{
     display: flex;
+}
+
+.all-inside{
+    display: flex;
+    margin: 0 10% 0 auto;
+    right: 0;
 }
